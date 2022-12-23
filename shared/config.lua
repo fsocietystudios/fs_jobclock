@@ -16,12 +16,4 @@ Config.Jobs = {
             vec3(260.9588, -1358.3494, 24.5378)
         }
     },
-
-    FireDep = {
-        ClockedInJob = "fire",
-        ClockedOutJob = "offdutyfire",
-        Locations = {
-            vec3(-632.5477, -121.8778, 39.2291)
-        }
-    }
 }
