@@ -88,7 +88,7 @@ This is how my sql file will look like after adding the clock-out fire job in.
 ```sql
 INSERT INTO `jobs` (`name`, `label`, `whitelisted`) VALUES
     ('offdutypolice', 'Off-Duty Police', 1),
-    ('offdutyambulance', 'Off-Duty Ambulance', 1);
+    ('offdutyambulance', 'Off-Duty Ambulance', 1),
     ('offdutyfire', 'Off-Duty Fire Dep.', 1);
 
 INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES 
